@@ -1,4 +1,4 @@
 FROM node:latest 
-RUN npm install --global elm yarn 
+RUN npm install --global elm 
 RUN adduser user
 USER user
